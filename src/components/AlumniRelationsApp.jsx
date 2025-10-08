@@ -293,10 +293,10 @@ const AlumniRelationsApp = () => {
     const posts = [
       {
         id: 1,
-        author: 'Pradeep M',
+        author: 'Mohamed Aashath K',
         role: 'Student',
         location: 'Panimalar Engineering College, Chennai',
-        avatar: 'PM',
+        avatar: 'MA',
         time: '2 hours ago',
         content: 'Excited to share that I completed my internship at ApexPlanet! Grateful for the amazing learning experience and mentorship. Looking forward to applying these skills in my final year project. 🎓',
         image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800',
@@ -306,10 +306,10 @@ const AlumniRelationsApp = () => {
       },
       {
         id: 2,
-        author: 'Mohamed Aashath K',
+        author: 'Pradeep M',
         role: 'Alumni',
         location: 'Software Engineer at Google',
-        avatar: 'VN',
+        avatar: 'PM',
         time: '5 hours ago',
         content: 'Great to see the annual tech fest happening! Reminds me of my college days. Wishing all the participants the best of luck! 🚀',
         image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
