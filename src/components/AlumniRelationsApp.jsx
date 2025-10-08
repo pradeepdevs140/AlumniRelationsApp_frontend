@@ -306,7 +306,7 @@ const AlumniRelationsApp = () => {
       },
       {
         id: 2,
-        author: 'Vishwanathan N',
+        author: 'Mohamed Aashath K',
         role: 'Alumni',
         location: 'Software Engineer at Google',
         avatar: 'VN',
@@ -319,7 +319,7 @@ const AlumniRelationsApp = () => {
       },
       {
         id: 3,
-        author: 'Vaishali R',
+        author: 'Nagappan S',
         role: 'Alumni',
         location: 'Senior Designer at Microsoft',
         avatar: 'VR',
@@ -332,7 +332,7 @@ const AlumniRelationsApp = () => {
       },
       {
         id: 4,
-        author: 'Mohamed Aashath K',
+        author: 'Karthi ',
         role: 'Student',
         location: 'Panimalar Engineering College, Chennai',
         avatar: 'MA',
@@ -415,17 +415,17 @@ const AlumniRelationsApp = () => {
   // Messages Sidebar Component
   const MessagesSidebar = () => {
     const chats = [
-      { name: 'Vishwanathan N', message: 'Just woke up bruh', avatar: 'VN', online: false, unread: 0 },
-      { name: 'Vaishali R', message: '2 new messages', avatar: 'VR', online: true, unread: 2 },
-      { name: 'Mohamed Aashath K', message: 'lol u right', avatar: 'MA', online: true, unread: 0 },
-      { name: 'Srividhya S', message: 'Birthday Tomorrow', avatar: 'SS', online: false, unread: 0 },
-      { name: 'Yashwanth K', message: 'haha got that!', avatar: 'YK', online: false, unread: 0 },
+      { name: 'Mohamed Aashath K', message: 'Just woke up bruh', avatar: 'MA', online: false, unread: 0 },
+      { name: 'Nagappan S', message: '2 new messages', avatar: 'NS', online: true, unread: 2 },
+      { name: 'Karthi', message: 'lol u right', avatar: 'KR', online: true, unread: 0 },
+      { name: 'Pradeep', message: 'Birthday Tomorrow ', avatar: 'PK', online: false, unread: 0 },
+      { name: 'Lux', message: 'haha got that!', avatar: 'LX', online: false, unread: 0 },
     ];
 
     const requests = [
-      { name: 'Hajia Bintu', mutualFriends: 8, avatar: 'HB' },
-      { name: 'Edelson Mandela', mutualFriends: 2, avatar: 'EM' },
-      { name: 'Megan Baldwin', mutualFriends: 5, avatar: 'MB' },
+      { name: 'Madhan ', mutualFriends: 8, avatar: 'MA' },
+      { name: 'Kabi', mutualFriends: 2, avatar: 'KB' },
+      { name: 'Prasanth', mutualFriends: 5, avatar: 'PR' },
     ];
 
     return (
@@ -775,19 +775,19 @@ const AlumniRelationsApp = () => {
       {
         id: 1,
         type: 'like',
-        user: 'Vishwanathan N',
+        user: 'Nagappan',
         action: 'liked your post',
         time: '2 hours ago',
-        avatar: 'VN',
+        avatar: 'NS',
         read: false,
       },
       {
         id: 2,
         type: 'comment',
-        user: 'Vaishali R',
+        user: 'Karthi',
         action: 'commented on your post',
         time: '4 hours ago',
-        avatar: 'VR',
+        avatar: 'KR',
         read: false,
       },
       {
@@ -802,10 +802,10 @@ const AlumniRelationsApp = () => {
       {
         id: 4,
         type: 'share',
-        user: 'Srividhya S',
+        user: 'Kabi',
         action: 'shared your post',
         time: '1 day ago',
-        avatar: 'SS',
+        avatar: 'KB',
         read: true,
       },
       {
